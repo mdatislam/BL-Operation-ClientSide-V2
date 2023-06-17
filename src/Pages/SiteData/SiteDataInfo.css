@@ -1,0 +1,21 @@
+.pagination {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(213, 238, 238, 0.824);
+}
+.pagination button{
+    margin-right: 10px;
+}
+
+.pagination .selected{
+    background-color: goldenrod;
+    border: gold;
+    font-weight: bold;
+    width: 40px;
+    padding: 8px;
+}
+
+.wrapper1, .wrapper2 { width: 100%; overflow-x: scroll; overflow-y: hidden; }
+.wrapper1 { height: 20px; }
+.div1 { height: 20px; }
+.div2 { overflow: none; }

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "name": "Md Asmal Ali",
+    "designation": "Regional Operations Manager,TL",
+    "pic": "https://i.ibb.co/TMF72Rh/Asmal-vai.png"
+  },
+  {
+    "id": "2",
+    "name": " Md Atiqul Islam",
+    "designation": "Regional Operation Lead Engineer",
+    "pic": "https://i.ibb.co/LRghkH8/Atiqul.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Md Roman Chowdhury",
+    "designation": "Regional Operation Specialist Engineer",
+    "pic": "https://i.ibb.co/kK3h5M6/Roman.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Md Nure Alom",
+    "designation": "Jr. Specialist Engineer",
+    "pic": "https://i.ibb.co/4F2BtwV/Nure-Alom.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Md Shauyabul Islam",
+    "designation": "Operations Junior Engineer",
+    "pic": "https://i.ibb.co/KzSLmZc/Md-Shauyabul-Islam.jpg"
+  },
+
+  {
+    "id": "6",
+    "name": "Md Masud Parves",
+    "designation": "Junior engineer Operation",
+    "pic": "https://i.ibb.co/zFHyPx6/Md-Masud-Parves.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Kazi Shah Newaz",
+    "designation": "Operations Junior Engineer",
+    "pic": "https://i.ibb.co/SdR4LDq/Kazi-Shah-Newaz.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Ashok Kumar Paul",
+    "designation": "BSS Officer",
+    "pic": "https://i.ibb.co/0ZzSTLv/Ashok-Kumar-Paul.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Md Rashidul Islam",
+    "designation": "BSS Officer",
+    "pic": "https://i.ibb.co/V92GYqq/Md-Rashidul-Islam.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Md Rayhan Khan",
+    "designation": "BSS Officer",
+    "pic": "https://i.ibb.co/Vwtn88N/Md-Rayhan-Khan.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Md Khabirul Islam",
+    "designation": "BSS Officer",
+    "pic": "https://i.ibb.co/9bCLVTJ/Md-Khabirul-Islam.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Md Ahadul Islam",
+    "designation": "BSS Rigger",
+    "pic": "https://i.ibb.co/Wv4hDbf/Md-Ahadul-Islam.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Md Atikul Islam",
+    "designation": "PM Cleaner",
+    "pic": "https://i.ibb.co/qCQdg7c/Md-Atikul-Islam.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Md Rafiqul Islam",
+    "designation": "PG Runner",
+    "pic": "https://i.ibb.co/pQ72bRb/Md-Rafiqul-Islam.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Md Imran Ali",
+    "designation": "PG Runner",
+    "pic": "https://i.ibb.co/r40Q5Jf/Md-Imran-Ali.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Md Nur-Nobi",
+    "designation": "PG Runner",
+    "pic": "https://i.ibb.co/bL7wXFN/Md-Nur-Nobi.jpg"
+  }
+]
