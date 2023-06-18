@@ -113,7 +113,7 @@ const FcuDataFromExcel = () => {
       nextPlanDate: NextChangingDate,
     };
     fetch(
-      `https://backend.bloperation.com/fcuFilterChangeLatestRecord/${siteID}`,
+      `http://localhost:5000/fcuFilterChangeLatestRecord/${siteID}`,
       {
         method: "PUT",
         headers: {

@@ -26,7 +26,7 @@ const FuelUpdate = () => {
   } = useForm();
 
   const { data: users, isLoading } = useQuery(["userList", user], () =>
-    fetch("https://backend.bloperation.com/userList", {
+    fetch("http://localhost:5000/userList", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -81,7 +81,7 @@ const FuelUpdate = () => {
     };
 
     //console.log(fuelData);
-    fetch("https://backend.bloperation.com/fuelData", {
+    fetch("http://localhost:5000/fuelData", {
       method: "POST",
       headers: {
         "content-type": "application/json",

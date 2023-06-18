@@ -8,7 +8,7 @@ const useUserList = () => {
   const [userList, setUserList] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("https://backend.bloperation.com/userList/pgRunner", {
+    fetch("http://localhost:5000/userList/pgRunner", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

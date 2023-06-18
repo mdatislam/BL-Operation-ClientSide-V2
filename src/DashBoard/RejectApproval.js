@@ -16,7 +16,7 @@ const RejectApproval = ({ reject, setReject, refetch }) => {
   const navigate = useNavigate();
 
   const onSubmit = (data, id) => {
-    fetch(`https://backend.bloperation.com/pgRunList/${_id}`, {
+    fetch(`http://localhost:5000/pgRunList/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

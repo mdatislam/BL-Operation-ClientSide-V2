@@ -24,7 +24,7 @@ const PgRunUpdate = () => {
   } = useForm();
 
   const { data: users, isLoading } = useQuery(["userList", user], () =>
-    fetch("https://backend.bloperation.com/userList", {
+    fetch("http://localhost:5000/userList", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -40,7 +40,7 @@ const PgRunUpdate = () => {
     })
   );
   const { data: rectifiers, isLoading3 } = useQuery(["rectifierList"], () =>
-    fetch("https://backend.bloperation.com/rectifier", {
+    fetch("http://localhost:5000/rectifier", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -125,7 +125,7 @@ const PgRunUpdate = () => {
       remark: data.remark,
     };
     //console.log(PgRunData);
-    fetch("  https://backend.bloperation.com/pgRunData", {
+    fetch("  http://localhost:5000/pgRunData", {
       method: "POST",
       headers: {
         "content-type": "application/json",

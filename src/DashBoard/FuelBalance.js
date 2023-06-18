@@ -11,7 +11,7 @@ const FuelBalance = () => {
   const navigate = useNavigate();
 
   const { data: pgRunData, isLoading2 } = useQuery(["list"], () =>
-    fetch("https://backend.bloperation.com/ApprovedAllPgRun", {
+    fetch("http://localhost:5000/ApprovedAllPgRun", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -27,7 +27,7 @@ const FuelBalance = () => {
   );
 
   const { data: receiveFuel, isLoading3 } = useQuery(["fuel"], () =>
-    fetch("https://backend.bloperation.com/fuelListAll", {
+    fetch("http://localhost:5000/fuelListAll", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -36,7 +36,7 @@ const FuelBalance = () => {
   );
 
   const { data: receiveFuelOncall, isLoading } = useQuery(["fuelOncall"], () =>
-    fetch("https://backend.bloperation.com/fuelListAllOncall", {
+    fetch("http://localhost:5000/fuelListAllOncall", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

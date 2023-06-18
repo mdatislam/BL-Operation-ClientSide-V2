@@ -26,7 +26,7 @@ const FcuFilterChange = () => {
   } = useForm();
 
   const { data: sites, isLoading } = useQuery(["siteList"], () =>
-    fetch("https://backend.bloperation.com/fcuFilterChangeLatestRecord", {
+    fetch("http://localhost:5000/fcuFilterChangeLatestRecord", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -121,7 +121,7 @@ const FcuFilterChange = () => {
       remark: data.remark,
     };
 
-    fetch(`https://backend.bloperation.com/fcuFilterChangeAllRecord`, {
+    fetch(`http://localhost:5000/fcuFilterChangeAllRecord`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -146,7 +146,7 @@ const FcuFilterChange = () => {
       });
 
     fetch(
-      `https://backend.bloperation.com/fcuFilterChangeLatestRecord/${siteID}`,
+      `http://localhost:5000/fcuFilterChangeLatestRecord/${siteID}`,
       {
         method: "PUT",
         headers: {

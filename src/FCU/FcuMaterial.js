@@ -39,7 +39,7 @@ const FcuMaterial = () => {
       date: today,
     };
 
-    fetch(`https://backend.bloperation.com/fcuFilter`, {
+    fetch(`http://localhost:5000/fcuFilter`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -72,7 +72,7 @@ const FcuMaterial = () => {
     isLoading,
     refetch,
   } = useQuery(["filterRecord"], () =>
-    fetch(" https://backend.bloperation.com/fcuFilter", {
+    fetch(" http://localhost:5000/fcuFilter", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -93,7 +93,7 @@ const FcuMaterial = () => {
   const { data: fcuFilterReplace, isLoading2 } = useQuery(
     ["fcuFilterReplace"],
     () =>
-      fetch(" https://backend.bloperation.com/fcuFilterChangeAllRecord", {
+      fetch(" http://localhost:5000/fcuFilterChangeAllRecord", {
         method: "GET",
         headers: {
           authorization: `Bearer ${localStorage.getItem("accessToken")}`,

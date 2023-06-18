@@ -11,7 +11,7 @@ import auth from "../../firebase.init";
 const DgUseMaterialList = () => {
   const navigate = useNavigate();
   const { data: dgMaterialInfo, isLoading } = useQuery(["DgInfoList"], () =>
-    fetch(" https://backend.bloperation.com/dgMaterialInfo", {
+    fetch(" http://localhost:5000/dgMaterialInfo", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

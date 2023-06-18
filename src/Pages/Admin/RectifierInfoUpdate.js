@@ -26,7 +26,7 @@ const RectifierInfoUpdate = () => {
       consumeFuel: data.consume,
     };
     //console.log(PgRunData);
-    fetch(`https://backend.bloperation.com/rectifier?brand=${brand}`, {
+    fetch(`http://localhost:5000/rectifier?brand=${brand}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

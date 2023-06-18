@@ -30,7 +30,7 @@ const EditPg = ({ pgEdit, setPgEdit, refetch }) => {
       date: today,
     };
 
-    fetch(`https://backend.bloperation.com/pgList/${pgNo}`, {
+    fetch(`http://localhost:5000/pgList/${pgNo}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

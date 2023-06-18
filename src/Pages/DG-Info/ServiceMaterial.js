@@ -40,7 +40,7 @@ const ServiceMaterial = () => {
       date: today,
     };
 
-    fetch(`https://backend.bloperation.com/lubOil`, {
+    fetch(`http://localhost:5000/lubOil`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -73,7 +73,7 @@ const ServiceMaterial = () => {
     isLoading,
     refetch,
   } = useQuery(["LubOilRecord"], () =>
-    fetch(" https://backend.bloperation.com/lubOil", {
+    fetch(" http://localhost:5000/lubOil", {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -94,7 +94,7 @@ const ServiceMaterial = () => {
   const { data: dgAllServiceInfo, isLoading2 } = useQuery(
     ["DgAllInfoList"],
     () =>
-      fetch(" https://backend.bloperation.com/dgAllServiceInfo", {
+      fetch(" http://localhost:5000/dgAllServiceInfo", {
         method: "GET",
         headers: {
           authorization: `Bearer ${localStorage.getItem("accessToken")}`,
